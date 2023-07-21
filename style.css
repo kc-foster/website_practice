@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  flex-direction: column;
+  font-size: 22px;
+  width: 100%;
+  height: 2000px;
+}
+
+.page-banner {
+  background-color: black;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+.logo {
+  height: 50px;
+}
+
+.site-map {
+  display: flex;
+  text-decoration: underline;
+  position: absolute;
+  right: 100px;
+}
+
+.site-map li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.our-mission-container {
+  position: relative;
+  top: 70px;   
+}
+
+.our-mission-banner {
+  background-color: black;
+  text-align: center;
+  text-justify: center;
+  position: relative;
+  top: -500px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.tea-of-the-month {
+  width: 1000px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  line-height: 10px;
+}
+
+.tea-menu1 {
+  width: 1000px;
+  height: 250px;
+  display: grid;
+  gap: 25px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.tea-menu2 {
+  width: 700px;
+  height: 250px;
+  display: grid;
+  gap: 25px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  top: 50px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  text-justify: center;
+}
+
+.menu-text {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-img {
+  width: 300px;
+  height: 200px;
+}
+
+.background-img {
+  width: 1200px;
+  height: 500px;
+  margin-bottom: 25px;
+}
+
+#locations-section {
+  position: relative;
+  top: 100px;
+}
+
+#locations-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  text-align: center; 
+  gap: 100px;
+
+}
+
+#loc-item {
+  background-color: black;
+  line-height: 5px;
+}
+
+#contact-container{
+  position: relative;
+  top: 100px;
+  height: 200px;
+}
+
+#contact-info {
+  display: flex;
+  text-justify: center;
+  text-align: center;
+}
+
+#footer-container {
+  display: flex;
+  position: relative;
+  top: 200px;
+}
+
+#copyright {
+  margin: 20px 20px;
+}
+
